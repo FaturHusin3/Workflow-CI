@@ -1,0 +1,9 @@
+name: titanic-env
+
+dependencies:
+  - python=3.12
+  - pip
+  - pip:
+      - pandas
+      - scikit-learn
+      - mlflow==2.19.0
